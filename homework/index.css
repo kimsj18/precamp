@@ -1,0 +1,236 @@
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .큰배경{
+            width: 1920px;
+            height: 1208px;
+            background-image: url(./assets/images/bg1.png) ;
+        }
+
+        .헤더{
+            width: 1920px;
+            height: 80px;
+            display: flex;
+        }
+
+        .헤더__왼쪽{
+            width: 480px;
+            height: 80px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 16px;
+            padding-right: 16px;
+        }
+
+        .헤더__오른쪽{
+            width: 1440px;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 80px;
+        }
+
+        .헤더__오른쪽__프로필설정{
+            width: 163px;
+            height: 48px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+         
+        }
+
+        .바디{
+            width: 1920px;
+            height: 1048px;
+            display: flex;
+        }
+
+        
+
+        .바디__사이드바왼쪽{
+            width: 80px;
+            height: 1048px;
+     
+        }
+
+        .바디__메인{
+            width: 1760px;
+            height: 1048px;
+            background-image: url(./assets/images/bg2.png);
+            display: flex;
+        }
+
+        .바디__메인__메뉴{
+            width: 400px;
+            height: 1048px;
+        
+        }
+
+        .바디__메인__회원가입{
+            width: 680px;
+            height: 1048px;
+            display: flex;
+            flex-direction: column;
+            
+           
+            
+          
+        }
+
+        .바디__메인__회원가입__헤더{
+            width: 560px;
+            height: 112px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top:40px;
+            margin-left: 60px;
+        }
+
+        .바디__메인__회원가입__바디{
+            width: 560px;
+            height: 660px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 40px;
+        
+        }
+
+        .바디__메인__회원가입__바디__입력{
+            width: 560px;
+            height: 660px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           padding-left : 60px;
+           gap:20px
+        }
+
+        .입력{
+            width: 448px;
+            height: 44px;
+            gap : 8px;
+            display: flex;
+            justify-content: space-between;
+            padding-left:60px ;
+        }
+
+        .입력내용{
+            width: 120px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+        }
+
+        .입력창{
+            width: 320px;
+            height: 44px;
+        }
+
+        .이름{
+            width: 120px;
+            height: 44px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .인증번호{
+            width: 448px;
+            height: 92px;
+            /* display: flex; */
+            /* flex-direction: row; */
+            /* align-items: flex-end; */
+            justify-content: flex-end;
+            gap : 12px
+
+        }
+
+        .인증번호1{
+            display: flex;
+            justify-content: flex-end;
+            width: 448px;
+            height: 40px;
+            gap : 12px
+        }
+
+        .인증버튼{
+            width: 136px;
+            height: 40px;
+        }
+
+        .자기소개디브{
+            display: flex;
+            width: 448px;
+            height: 116px;
+            justify-content: space-between;
+            padding-left:60px ;
+            gap:8px
+        }
+
+        #자기소개입력{
+            width: 320px;
+            height: 116px;
+        }
+
+        .성별라디오{
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: start;
+            gap:40px;
+            padding-right: 152px;
+        }
+
+        .성별{
+            display: flex;
+        }
+
+        .가입버튼{
+            width: 448px;
+            height: 48px;
+        }
+
+        .바디__메인__회원가입__바디__동의가입{
+            width: 560px;
+            height: 660px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           padding-left : 60px;
+           gap:20px 
+        }
+
+        #동의체크박스{
+            display: flex;
+            gap:8px
+        
+        }
+
+        .바디__메인__사진{
+            width: 680px;
+            height: 1048px;
+            background-image: url(./assets/images/picture.png);
+
+        }
+
+        .바디__사이드바오른쪽{
+            width: 80px;
+            height: 1048px;
+        }
+
+
+        .푸터{
+            width: 1920px;
+            height: 80px;
+        }
+

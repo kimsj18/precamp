@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>플렉스박스 실습</title>
+
+    <style>
+        .부모{
+            width: 500px;
+            height: 500px;
+            background-color: aqua;
+            display:flex;
+            flex-direction: row;
+            /* flex-direction: column; */
+            
+            /* justify-content: center; */
+            justify-content: space-between;
+            align-items:flex-end;
+
+
+
+        }
+
+        .자식1{
+            width: 150px;
+            height: 150px;
+            background-color: yellow;
+        }
+
+        .자식2{
+            width: 150px;
+            height: 150px;
+            background-color: pink;
+
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="부모">
+        <div class="자식1">노란상자</div>
+        <div class="자식2">핑크상자</div>
+   </div>
+
+</body>
+</html>

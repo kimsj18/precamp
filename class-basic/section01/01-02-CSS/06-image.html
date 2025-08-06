@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>이미지 실습</title>
+
+    <style>
+        .강아지배경{
+            width: 250px;
+            height: 250px;
+            background-image: url("../../image/00-dog.jpg");
+            /* background-size: cover; */
+            background-size: contain;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <img src="../../image/00-dog.jpg" alt="" width="250px">
+    <!-- img 태그는 사진크기 그대로가져옴 , 자체적으로 크기 수정 필요(비율에 맞춰서 크기 변함)-->
+
+    <div class="강아지배경" >
+        <span>배경이미지 안에는 다른것을을 올릴수 있음</span>
+        <button>버튼</button>
+    </div>
+    
+</body>
+</html>
